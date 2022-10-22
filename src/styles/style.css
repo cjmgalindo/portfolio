@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Hi Melody", cursive;
+  font-size: 1.2rem;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(15, 13, 13);
+  color: white;
+  width: 100%;
+  height: 8vh;
+  position: fixed;
+}
+header a {
+  color: white;
+}
+header p {
+  margin-left: 10px;
+}
+header ul {
+  display: flex;
+  margin-right: 5px;
+}
+header ul li {
+  list-style: none;
+  margin: 0 8px;
+}
+
+#particles-js {
+  background-color: #1a1717;
+  height: 92vh;
+  padding-top: 8vh;
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+#home {
+  padding-top: 8vh;
+  height: 92vh;
+  color: white;
+  display: flex;
+}
+#home .first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  gap: 10px;
+  width: 50%;
+}
+#home .first h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  text-align: center;
+  line-height: 2.4rem;
+  height: 25%;
+}
+#home .first p {
+  text-align: center;
+  font-size: 1.3rem;
+}
+#home .first .buttons {
+  display: flex;
+  gap: 2rem;
+}
+#home .first .buttons ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+#home .first .buttons ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home .first .buttons ul li a {
+  display: flex;
+}
+#home .first .buttons ul li img {
+  width: 2rem;
+}
+#home .first .buttons .download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home .first .buttons .download a {
+  background-color: rgb(12, 12, 88);
+  color: white;
+  padding: 0.5rem 4rem;
+  border-radius: 5px;
+}
+#home img {
+  width: 50%;
+}
+
+#about {
+  padding-top: 8vh;
+  height: 92vh;
+  background-color: rgb(255, 255, 255);
+}
+
+#projects {
+  padding-top: 8vh;
+  height: 92vh;
+  background-color: bisque;
+}
+
+#blog {
+  padding-top: 8vh;
+  height: 92vh;
+  background-color: white;
+}
+
+#contact {
+  padding-top: 8vh;
+  height: 92vh;
+  background-color: brown;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: cyan;
+}/*# sourceMappingURL=style.css.map */
